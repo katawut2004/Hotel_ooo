@@ -38,7 +38,7 @@ export default function SlipReader({ expectedAmount, onVerificationComplete }: S
       });
 
       const text = result.data.text;
-      setDebugText(text); // โชว์ข้อความดิบๆ ให้ดูเลย
+      setDebugText(text); // โชว์ข้อความดิบๆ ให้ดูเลยครับ
 
       // --- LOGIC การตรวจแบบผ่อนปรน (เพื่อการศึกษา) ---
       
