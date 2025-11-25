@@ -15,7 +15,7 @@ export default function AdminDashboard() {
     month: "2023-11", 
     rent: 3000,
     water: 0,
-    electric: 0,
+    electric: 0,//เสร็จงับ
   });
 
   // 1. เช็คสิทธิ์และโหลดข้อมูล
