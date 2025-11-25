@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { signIn } from "next-auth/react";      // <-- บรรทัดนี้ของคุณหายไป
-import { useRouter } from "next/navigation";   // <-- บรรทัดนี้ก็หายไป
+import { useRouter } from "next/navigation";   // <-- บรรทัดนี้ก็หายไปครับ
 
 export default function LoginPage() {
   const [username, setUsername] = useState("");
