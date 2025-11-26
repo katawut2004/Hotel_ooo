@@ -1,14 +1,27 @@
+# Hotel_ooo 🏨
 
-# Hotel_ooo
-สำหรับส่งงานอาจารย์พิศาล สุขขี full stack developer 
+> ⚠️ หมายเหตุ: โปรเจกต์นี้เป็นงานส่งสำหรับอาจารย์พิศาล สุขขี (Full-Stack Developer)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 📄 สรุป (Overview)
 
-## Getting Started
+Hotel_ooo คือเว็บแอป / เว็บไซต์ (หรือ “ระบบจัดการโรงแรม / Booking / Demo / …” — ปรับให้ตรงกับฟีเจอร์ที่คุณทำ)  
+พัฒนาโดยใช้ Next.js (bootstrapped with create-next-app) — ทำให้โค้ดสะดวกต่อการพัฒนา, รองรับ SSR/SSG, และเหมาะกับการขยายในอนาคต  
 
-First, run the development server:
+## 🚀 เริ่มต้น (Getting Started)
+
+### ขั้นตอนการติดตั้ง / รันโปรเจกต์ (สำหรับนักพัฒนา)
 
 ```bash
+# ติดตั้ง dependencies  
+npm install  
+# หรือ  
+yarn install  
+# หรือ (ถ้าใช้ pnpm / bun)  
+pnpm install  
+# หรือ  
+bun install  
+
+เริ่มเซิร์ฟเวอร์พัฒนา (development server):
 npm run dev
 # or
 yarn dev
@@ -16,26 +29,63 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+จากนั้นเปิดเบราเซอร์ไปที่:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+คุณสามารถแก้ไขไฟล์หลัก เช่น app/page.tsx แล้วเบราเซอร์จะรีโหลดอัตโนมัติทันที (Hot Reload)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧰 เทคโนโลยี & Dependencies (Tech Stack / Dependencies)
 
-## Learn More
+Next.js
 
-To learn more about Next.js, take a look at the following resources:
+(เพิ่ม: ภาษา, ไลบรารี, database, styling, auth … ถ้ามี)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+(เช่น React, TypeScript, CSS framework, ฯลฯ)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ ฟีเจอร์ / จุดประสงค์ของโปรเจกต์ (Features / Purpose)
 
-## Deploy on Vercel
+(อธิบายฟีเจอร์หลัก เช่น หน้าแสดงโรงแรม, ระบบจอง, การจัดการข้อมูล, หน้า Dashboard / Admin, ฯลฯ)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+(ถ้ามี UI / UX / responsive / mobile)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
- 3a29209 (Initial commit from Create Next App)
+(ถ้ามีระบบ backend / database / API — ระบุ)
+
+(ถ้ามีฟีเจอร์พิเศษอื่น ๆ — สรุปตรงนี้)
+
+💡 วิธีใช้งาน (Usage)
+
+(ถ้ามีส่วนที่ผู้ใช้ทั่วไป / ผู้ทดสอบควรรู้ — เช่น การสมัคร, login, การจอง, การดูข้อมูล, ฯลฯ)
+
+เปิดเว็บที่ http://localhost:3000
+
+(ถ้ามีระบบ auth) ลงชื่อเข้าใช้ / สมัคร
+
+(อธิบาย flow การจอง / การดู / การจัดการ ตามฟีเจอร์)
+
+(อธิบายถ้ามีหน้า admin / backend / user)
+
+📁 โครงสร้างโฟลเดอร์ (Project Structure)
+/public      ← สื่อ static (รูป, icon, asset เป็นต้น)  
+/src         ← ซอร์สโค้ดหลัก  
+│  └── ...  
+.gitignore  
+package.json  
+next.config.ts  
+tsconfig.json  
+...
+
+
+ปรับให้ตรงกับโครงสร้างจริงของโปรเจกต์
+
+🛠️ วิธีมีส่วนร่วม (Contributing)
+
+ถ้าคุณต้องการให้ใครมาช่วยพัฒนาโปรเจกต์ต่อ
+
+Fork โปรเจกต์นี้
+
+สร้าง branch ใหม่สำหรับ feature/bugfix
+
+ทำ commit พร้อมข้อความที่ชัดเจน
+
+สร้าง Pull Request — อธิบายการเปลี่ยนแปลงที่ทำ
